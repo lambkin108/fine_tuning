@@ -15,7 +15,9 @@ fine_tuning/
 ```
 
 ## Training
-```python train_grid_search.py```
+```
+python train_grid_search.py
+```
 
 This script will:
 + Use 30 samples per class for training
@@ -25,7 +27,14 @@ This script will:
 
 
 ## Testing
-```python test_model.py```
+**Download the pre-trained model weights from the following link:**
+
+链接: https://pan.baidu.com/s/1yFqcpvE0EdwpSeHqQcPAbA 提取码: udss 
+
+```
+python test_model.py
+```
+
 This script will:
 + Loads the validation set using the same split_indices.json
 + Loads the model from the path you saved
@@ -33,4 +42,7 @@ This script will:
   
 **Note: Make sure the paths to the following two files are correct.**
 
+
 Final Test Accuracy: 0.9473
+
+## 

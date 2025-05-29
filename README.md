@@ -4,7 +4,8 @@ Fine-tuning ResNet18 pretrained on ImageNet for image classification on the Calt
 ## Structure
 ```
 fine_tuning/
-├── train_grid_search.py       # Training + Grid Search
+├── baseline.py                # without pretrain
+├── train_grid_search.py       # fine_tuning_train + Grid Search
 ├── test_model.py              # Evaluation Script
 ├── split_indices.json         # Stored train/val split
 ├── runs/                      # Tensorboard logs and best_model
